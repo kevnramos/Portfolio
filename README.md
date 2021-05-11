@@ -8,4 +8,4 @@ I utilized webpack to facilitate my workflow. This website was built using raw c
 
 [Website hosted on github](https://kevnramos.github.io/Portfolio/)
 
-Website design PDF: [PDF](https://kevnramos.github.io/)
+Website design PDF: [PDF](https://kevnramos.github.io/Portfolio/Portfolio%20design.pdf)
