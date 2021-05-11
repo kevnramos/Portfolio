@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" style="overflow-y: scroll;}">
 <head>
-    <title>Z Layout</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta charset="utf-8"/>
-    <meta name="description"
-          content="This is an example of a Z layout.">
-    <link rel="stylesheet" href="css/style.css">
+    <meta content="Homepage kevin"
+          name="description">
+
+    <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon"/>
+
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
-    <div class="navbar"><img height="100px" width="100px" src="assets/images/KR.PNG" alt="Internet png logo"></div>
+    <div class="navbar"><img alt="Internet png logo" height="100px" src="assets/images/KR.PNG" width="100px"></div>
     <div class="navitems">
         <menu>
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="about.html">Projects</a></li>
+                <li><a href="projects.html">Projects</a></li>
             </ul>
         </menu>
     </div>
@@ -24,29 +27,34 @@
 
     <div class="grid heroImage">
         <div class="overlay">
+            <h1 style="text-align: center; color: black">Hello! I'm Kevin</h1>
+            <br>
+            <h1 style="text-align: center; color: black">Feel free to check out my Portfolio</h1>
 
-            <div class="column">
-                <span style="font-size: 15em;">
-                            <a href="https://github.com/kevnramos/History-and-How-Internet-works"
-                               style="color: green"><i class="fab fa-github-square"></i></a>
-                        </span>
-            </div>
+
         </div>
     </div>
 
     <div id="cards">
-        <div class="box1"><h2>Ocean 1</h2></div>
-        <div class="box2"><h2>Ocean 2</h2></div>
-        <div class="box3"><h2>Ocean 3</h2></div>
+        <div><h2>    <span style="font-size: 4em;">
+            <a href="https://github.com/kevnramos/" style="color: white"><i
+                    class="fab fa-github-square"></i></a>
+            </span></h2></div>
+        <div><h2>
+   <span style="font-size: 4em;">
+            <a href="https://www.linkedin.com/in/kevnramos/" style="color: white">  <i class="fab fa-linkedin"></i></a>
+            </span>
+
+        </h2></div>
     </div>
 
 
     <div class="footer">
-        <footer >&copy; Kevin Ramos 2021</footer>
+        <footer>&copy; Kevin Ramos 2021</footer>
     </div>
 </div>
 
-<script src="https://kit.fontawesome.com/85b74f7b14.js" crossorigin="anonymous"></script>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/85b74f7b14.js"></script>
 <script src="js/bundle.js"></script>
 </body>
 </html>
