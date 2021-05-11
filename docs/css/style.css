@@ -1,25 +1,35 @@
-.wrapper {
+.container {
     display: grid;
     grid-template-columns: [col] auto;
     grid-template-rows: [row] 100px [row] minmax(100px, 593px) [row] auto [row] 50px;
+    background-color: #C4C4C4;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 
-.branding {
+.column {
+    float: left;
+    width: 50%;
+}
+
+.navbar {
     grid-column: 1;
 }
 
-.mainMenu {
+.navitems {
     grid-column: 2;
     text-align: right;
     line-height: 100px;
+    padding-right: 3%;
 }
 
-.branding, .mainMenu {
+.navbar, .navitems {
     grid-row: 1;
 }
 
+
 .heroImage {
-    background-image: url("../assets/images/abstract.jpg");
+    background-image: url("https://source.unsplash.com/7JX0-bfiuxQ/");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -29,7 +39,7 @@
 
 .overlay {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0);
 
 }
 
@@ -41,7 +51,8 @@
     margin: 0;
 }
 
-#boxes {
+
+#cards {
     display: grid;
     grid-row: 3;
     height: 200px;
@@ -55,7 +66,7 @@
 
 }
 
-#boxes > div {
+#cards > div {
     box-shadow: 2px 2px;
     border-radius: 5px;
     padding: 10px;
@@ -70,8 +81,8 @@
     grid-column: 1 / span 2;
     text-align: center;
     line-height: 50px;
+    color: white;
 }
-
 
 
 menu {
@@ -79,14 +90,13 @@ menu {
     padding: 0px;
 }
 
-.mainMenu li {
+.navitems li {
     display: inline;
 
 }
 
-.mainMenu menu a {
+.navitems menu a {
     display: inline;
-
     background-color: red;
     border: none;
     color: black;
@@ -98,23 +108,55 @@ menu {
     cursor: pointer;
 }
 
-.mainMenu ul {
+.navitems menu a:hover {
+    background-color: white;
+
+}
+
+.navitems menu a.active {
+    background-color: white;
+
+}
+
+
+.navitems ul {
     margin: 0px;
 }
 
-.mainMenu li {
+.navitems li {
     margin-left: 1rem;
 }
 
-.mainMenu li:first-child {
+.navitems li:first-child {
     margin-left: 0rem;
 
 }
-.wrapper2{
 
+.containerF {
     display: grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: [row] 100px [row] auto [row] auto [row] auto [row] 50px;
+    background-color: #C4C4C4;
+    padding-right: 3%;
+    padding-left: 3%;
+    grid-gap: 1em;
+}
+
+.mainContent{
+    text-align: center;
+    color: black;
+
+}
+.info{
+    text-align: left;
+    color: black;
+
+}
+.ctemp{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #C4C4C4;
+
+    grid-gap: 1em;
 
 }
 
